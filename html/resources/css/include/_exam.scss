@@ -1,0 +1,142 @@
+.exam-page{
+	.menu-test{
+		margin-bottom: 20px;
+		>ul{
+			border-bottom: 0;
+			text-align: center;
+			>li{
+				float: unset;
+				display: inline-block;
+				margin-bottom: 20px;
+				>a{
+					font-size: 16px;
+					text-transform: uppercase;
+					color: $color;
+					border: 2px solid $color;
+					border-radius: 5px;
+					padding: 7px 20px;
+					background: #404040;
+					font-weight: bold;
+					>i{
+						margin-left: 10px;
+						font-size: 22px;
+					}
+				}
+				&.active{
+					>a{
+						background: #000;
+						color: $color;
+						border: 2px solid $color;
+
+					}
+				}
+			}
+		}
+	}
+
+	.down-pdf{
+		background-image: linear-gradient(#7f7f7f, #d8d8d8);
+		padding: 15px;
+		>h4{
+			margin-top: 0;
+			>a{
+				font-weight: bold;
+				color: #000;
+				text-decoration: none;
+				>i{
+					transition: all .5s ease;
+					transform: rotate(0);
+					&.rota90{
+						transform: rotate(-90deg);
+					}
+				}
+			}
+		}
+		.box-download-pdf{
+			margin-top: 20px;
+			background: #fff;
+			box-shadow: 0 5px 15px rgba(0,0,0,.5);
+			border-radius: 10px;
+			list-style: none;
+			padding: 15px 20px 45px 15px;
+			>li{
+				>a{
+					color: #000;
+					font-size: 18px;
+					position: relative;
+					padding-left: 40px;
+					margin-bottom: 15px;
+					&:after{
+						background: url(../images/index/pdf.png) no-repeat;
+						width: 30px;
+						height: 30px;
+						content: '';
+						position: absolute;
+						background-size: cover;
+						left: 0;
+					}
+				}
+			}
+		}
+	}
+	.title-answer{
+		background-image: linear-gradient(#7f7f7f, #d8d8d8);
+		padding: 10px 0;
+		text-align: center;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		>h4{
+			margin: 0;
+			color: #000;
+			font-size: 20px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	}
+	.box-answer{
+		background: #fff;
+		height: 633px;
+		overflow-y: scroll;
+		padding: 20px;
+		>ul{
+			padding: 0;
+			list-style: none;
+			>li{
+				>h3{
+					text-transform: uppercase;
+					font-weight: bold;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+	.box-full-answer{
+		position: relative;
+		.btn-submit-exam{
+			position: absolute;
+			right: 40px;
+			bottom: 10px;
+			>a{
+				background: #000;
+				color: $color;
+				text-transform: uppercase;
+				padding: 5px 15px;
+				font-size: 16px;
+				border: 2px solid $color;
+				border-radius: 5px;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.pr-0{
+	padding-right: 0;
+}
+.pl-0{
+	padding-left: 5px;
+}
+
+.ed-flex{
+	display: flex;
+	flex-wrap: wrap;
+}

@@ -7,15 +7,13 @@
 <title>Home</title>
 
 <!-- Bootstrap Core CSS -->
-<link rel='stylesheet prefetch' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
 <link href="resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="resources/vendor/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="resources/vendor/WOW-master/css/libs/animate.css" rel="stylesheet">
 <link href="resources/vendor/slick/slick.css" rel="stylesheet">
 <link href="resources/vendor/slick/slick-theme.css" rel="stylesheet">
+<link href="resources/fonts/utmavo/font.css" rel="stylesheet">
 <link href="resources/vendor/fancybox/jquery.fancybox.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="resources/vendor/jssocials/jssocials.css" />
-<link rel="stylesheet" type="text/css" href="resources/vendor/jssocials/jssocials-theme-flat.css" />
 
 <!-- Custom CSS -->
 

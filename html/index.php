@@ -82,6 +82,20 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="ed-pagination">
+                                <ul class="pagination setting-ul">
+                                    <li class="disabled"><span><i class="fa fa-angle-left"></i></span></li>
+                                    <li class="active"><span>1</span></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#" rel="next"><i class="fa fa-angle-right"></i></a></li>
+                                </ul>
+                            </div>
+						</div>
+					</div>
 				</div>
 			</div>
         </section>

@@ -2,7 +2,9 @@
 
  
 body{
-	font-family: 'Open Sans', sans-serif;
+	// font-family: 'Open Sans', sans-serif;
+	font-family: 'utmavo';
+
 }
 ul.ed-ul{
 	padding: 0;
@@ -97,4 +99,39 @@ a, a:hover{
 
 .slick-current {
 	opacity: 1;
+}
+
+.ed-pagination{
+	text-align: center;
+	margin-bottom: 30px;
+	ul{
+		li{
+			a, span{
+				border-radius: 0% !important;
+				margin: 0 4px;
+				font-size: 16px;
+				font-weight: bold;
+				color: $black;
+				border: 0px solid #f8f8f8;
+				transition: all .5s ease;
+				background: #f7f7f7;
+				width: 40px;
+				height: 40px;
+				text-align: center;
+				line-height: 30px;
+				border-radius: 3px;
+
+			}
+			&.active, &:hover{
+				a, span{
+					border: 1px solid $color;
+					color: #fff !important;
+					background: $color !important;
+					border-radius: 3px;					
+					border: 0;
+					text-decoration: none;
+				}
+			}
+		}
+	}
 }
