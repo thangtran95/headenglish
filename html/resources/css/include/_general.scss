@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+ 
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+ul.ed-ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a, a:hover{
+	text-decoration: none;
+	display: inline-block;
+	transition: all .5s ease;
+}
+@include down(md){
+	.container{
+		width: 100%;
+	}
+}
+.page-content{
+	img{
+		max-width: 100%;
+	}
+}
+
+.flex-mid{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-items: center;
+	justify-content: center;
+}
+
+.padding-0{
+	padding: 0;
+}
+.margin-0{
+	margin: 0;
+}
+.pd-left-0{
+	padding-left: 0;
+}
+.pd-right-0{
+	padding-right: 0;
+}
+.mg-bottom-15{
+	margin-bottom: 15px;
+}
+
+.flex-nowrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.banner{
+	.item{
+		a{
+			display: block;
+		}
+		img{
+			width: 100%;
+		}
+	}
+}
+
+
+
+.slider {
+	width: 100%;
+}
+
+.slick-slide {
+	margin: 0px 20px;
+}
+
+.slick-slide img {
+	width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}
+
+
+.slick-slide {
+	transition: all ease-in-out .3s;
+	opacity: 1;
+}
+
+.slick-active {
+	opacity: 1;
+}
+
+.slick-current {
+	opacity: 1;
+}
