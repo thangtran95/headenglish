@@ -30,6 +30,19 @@
 		border: 1px solid #cecece;
 		background: #fff;
 		padding: 20px;
+		display: none;
+		>h5{
+			>span{
+				color: red;
+				text-decoration: underline;
+			}
+		}
+	}
+	.box-bank--1{
+		border: 1px solid #cecece;
+		background: #fff;
+		padding: 20px;
+		display: none;
 		>h5{
 			>span{
 				color: red;

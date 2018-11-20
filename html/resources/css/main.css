@@ -629,8 +629,17 @@ footer {
   .payment-page .box-bank {
     border: 1px solid #cecece;
     background: #fff;
-    padding: 20px; }
+    padding: 20px;
+    display: none; }
     .payment-page .box-bank > h5 > span {
+      color: red;
+      text-decoration: underline; }
+  .payment-page .box-bank--1 {
+    border: 1px solid #cecece;
+    background: #fff;
+    padding: 20px;
+    display: none; }
+    .payment-page .box-bank--1 > h5 > span {
       color: red;
       text-decoration: underline; }
 

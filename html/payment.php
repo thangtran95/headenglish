@@ -50,90 +50,113 @@
                         <div class="col-md-7">
                             <div class="btn-payment-by text-center">
                                 <div class="radio">
-                                    <label><input type="radio" name="optradio1" checked>Thanh toán bằng ngân hàng nội địa</label>
+                                    <label><input type="radio" name="optradio1" id="show-list-bank">Thanh toán bằng ngân hàng nội địa</label>
+                                </div>
+                                <div class="box-bank" id="show-boxbank">
+                                    <h5><span>Lưu ý:</span> Bạn cần đăng ký internet-Banking hoặc dịch vụ thanh toán trực tuyến tại ngân hàng trước khi thực hiện</h5>
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <label class="cus-rdo-btn">
+                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <span class="outside">
+                                                    <span class="inside"></span>
+                                                </span><img src="resources/images/logo/vib.png">
+                                            </label>
+                                        </div>
+
+                                        <div class="col-xs-3">
+                                            <label class="cus-rdo-btn">
+                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <span class="outside">
+                                                    <span class="inside"></span>
+                                                </span><img src="resources/images/logo/vib.png">
+                                            </label>
+                                        </div>
+
+                                        <div class="col-xs-3">
+                                            <label class="cus-rdo-btn">
+                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <span class="outside">
+                                                    <span class="inside"></span>
+                                                </span><img src="resources/images/logo/vib.png">
+                                            </label>
+                                        </div>
+
+                                        <div class="col-xs-3">
+                                            <label class="cus-rdo-btn">
+                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <span class="outside">
+                                                    <span class="inside"></span>
+                                                </span><img src="resources/images/logo/vib.png">
+                                            </label>
+                                        </div>
+
+                                        <div class="col-xs-3">
+                                            <label class="cus-rdo-btn">
+                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <span class="outside">
+                                                    <span class="inside"></span>
+                                                </span><img src="resources/images/logo/vib.png">
+                                            </label>
+                                        </div>
+
+                                        <div class="col-xs-3">
+                                            <label class="cus-rdo-btn">
+                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <span class="outside">
+                                                    <span class="inside"></span>
+                                                </span><img src="resources/images/logo/vib.png">
+                                            </label>
+                                        </div>
+
+                                        <div class="col-xs-3">
+                                            <label class="cus-rdo-btn">
+                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <span class="outside">
+                                                    <span class="inside"></span>
+                                                </span><img src="resources/images/logo/vib.png">
+                                            </label>
+                                        </div>
+
+                                        <div class="col-xs-3">
+                                            <label class="cus-rdo-btn">
+                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <span class="outside">
+                                                    <span class="inside"></span>
+                                                </span><img src="resources/images/logo/vib.png">
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="box-bank">
-                                <h5><span>Lưu ý:</span> Bạn cần đăng ký internet-Banking hoặc dịch vụ thanh toán trực tuyến tại ngân hàng trước khi thực hiện</h5>
-                                <div class="row">
-                                    <div class="col-xs-3">
-                                        <label class="cus-rdo-btn">
-                                            <input type="radio" class="radio-inline" name="radios1" value="">
-                                            <span class="outside">
-                                                <span class="inside"></span>
-                                            </span><img src="resources/images/logo/vib.png">
-                                        </label>
-                                    </div>
-
-                                    <div class="col-xs-3">
-                                        <label class="cus-rdo-btn">
-                                            <input type="radio" class="radio-inline" name="radios1" value="">
-                                            <span class="outside">
-                                                <span class="inside"></span>
-                                            </span><img src="resources/images/logo/vib.png">
-                                        </label>
-                                    </div>
-
-                                    <div class="col-xs-3">
-                                        <label class="cus-rdo-btn">
-                                            <input type="radio" class="radio-inline" name="radios1" value="">
-                                            <span class="outside">
-                                                <span class="inside"></span>
-                                            </span><img src="resources/images/logo/vib.png">
-                                        </label>
-                                    </div>
-
-                                    <div class="col-xs-3">
-                                        <label class="cus-rdo-btn">
-                                            <input type="radio" class="radio-inline" name="radios1" value="">
-                                            <span class="outside">
-                                                <span class="inside"></span>
-                                            </span><img src="resources/images/logo/vib.png">
-                                        </label>
-                                    </div>
-
-                                    <div class="col-xs-3">
-                                        <label class="cus-rdo-btn">
-                                            <input type="radio" class="radio-inline" name="radios1" value="">
-                                            <span class="outside">
-                                                <span class="inside"></span>
-                                            </span><img src="resources/images/logo/vib.png">
-                                        </label>
-                                    </div>
-
-                                    <div class="col-xs-3">
-                                        <label class="cus-rdo-btn">
-                                            <input type="radio" class="radio-inline" name="radios1" value="">
-                                            <span class="outside">
-                                                <span class="inside"></span>
-                                            </span><img src="resources/images/logo/vib.png">
-                                        </label>
-                                    </div>
-
-                                    <div class="col-xs-3">
-                                        <label class="cus-rdo-btn">
-                                            <input type="radio" class="radio-inline" name="radios1" value="">
-                                            <span class="outside">
-                                                <span class="inside"></span>
-                                            </span><img src="resources/images/logo/vib.png">
-                                        </label>
-                                    </div>
-
-                                    <div class="col-xs-3">
-                                        <label class="cus-rdo-btn">
-                                            <input type="radio" class="radio-inline" name="radios1" value="">
-                                            <span class="outside">
-                                                <span class="inside"></span>
-                                            </span><img src="resources/images/logo/vib.png">
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
 
                             <div class="btn-payment-by text-center">
                                 <div class="radio">
-                                    <label><input type="radio" name="optradio1">Thanh toán bằng thẻ visa hoặc MasterCard</label>
+                                    <label><input type="radio" id="show-master-visa" name="optradio1">Thanh toán bằng thẻ visa hoặc MasterCard</label>
+                                </div>
+
+                                <div class="box-bank--1" id="show-boxbank">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <label class="cus-rdo-btn">
+                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <span class="outside">
+                                                    <span class="inside"></span>
+                                                </span><img src="resources/images/logo/mastercard.png">
+                                            </label>
+                                        </div>
+
+                                        <div class="col-xs-6">
+                                            <label class="cus-rdo-btn">
+                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <span class="outside">
+                                                    <span class="inside"></span>
+                                                </span><img src="resources/images/logo/visa.png">
+                                            </label>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
 

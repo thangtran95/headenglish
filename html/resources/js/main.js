@@ -189,6 +189,17 @@ function Helper(){
         })
     }
 
+    methods.initListBank = function(){
+        $('#show-list-bank').on('click', function(){
+            $('#show-boxbank').slideDown();
+            $('.box-bank--1').slideUp();
+        });
+        $('#show-master-visa').on('click', function(){
+            $('.box-bank--1').slideDown();
+            $('#show-boxbank').slideUp();
+        })
+    }
+
 
    
     methods.init = function(){
@@ -197,6 +208,7 @@ function Helper(){
         methods.initMenu();
         methods.initSlickSlider();
         methods.initDownPdf();
+        methods.initListBank();
 
     }
 
