@@ -1,0 +1,107 @@
+.payment-page{
+	margin: 50px 0;
+	h4{
+		text-align: center;
+		font-size: 14px;
+		margin-bottom: 30px;
+		>span{
+			color: red;
+			text-decoration: underline;
+		}
+	}
+	.form-payment{
+		button{
+			height: 40px;
+			border: 2px solid #ffc000;
+			border-radius: 0;
+			color: #fff;
+			font-weight: bold;
+			text-transform: uppercase;
+			font-size: 14px;
+			background: #ffc000;
+			transition: all .5s ease;
+			&:hover{
+				background: #fff;
+				color: $color;
+			}
+		}
+	}
+	.box-bank{
+		border: 1px solid #cecece;
+		background: #fff;
+		padding: 20px;
+		>h5{
+			>span{
+				color: red;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+
+.cus-rdo-btn {
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 25px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    input {
+        height: 1px;
+        width: 1px;
+        opacity: 0;
+    }
+    input:checked + .outside .inside {
+        -webkit-animation: radio-select 0.1s linear;
+        animation: radio-select 0.1s linear;
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    img{
+    	width: 100%;
+    }
+    .outside {
+    	display: inline-block;
+    	position: absolute;
+    	left: 0;
+    	margin-top: -10px;
+    	width: 20px;
+    	height: 20px;
+    	border: 2px solid #c2c2c2;
+    	border-radius: 50%;
+    	-webkit-box-sizing: border-box;
+    	box-sizing: border-box;
+    	background: none;
+    	bottom: 0;
+    	left: 50%;
+    	transform: translateX(-50%);
+    	
+        .inside {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            display: inline-block;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            background: $color;
+            left: 3px;
+            top: 3px;
+            -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+        }
+        .no-transforms .inside {
+            left: auto;
+            top: auto;
+            width: 0;
+            height: 0;
+        }
+        .no-transforms input:checked + .outside .inside {
+            width: 10px;
+            height: 10px;
+        }
+    }
+}
