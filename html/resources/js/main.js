@@ -60,36 +60,36 @@ function Helper(){
             speed: 900,
             prevArrow: '<button class="fa fa-angle-left"></button>',
             nextArrow: '<button class="fa fa-angle-right"></button>',
-            slidesToShow: 1,
+            slidesToShow: 5,
             slidesToScroll: 1,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
             responsive: [
             {
                 breakpoint: 1199,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 5,
                     slidesToScroll:1
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 4,
                     slidesToScroll:1
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 4,
                     slidesToScroll: 1
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll: 1
                 }
             }

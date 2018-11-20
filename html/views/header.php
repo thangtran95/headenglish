@@ -6,14 +6,14 @@
                 <div class="navbar-collapse1" >
                     <div class="col-sm-6 col-lg-8">
                         <div class="logo">
-                            <a href="index.php"><img src="resources/images/logo/logo.png"></a>
+                            <a href="index.html"><img src="resources/images/logo/logo.png"></a>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <div class="not-accout">
                             <ul class="login-regis">
-                                <li><a href="#">Đăng ký</a></li>
-                                <li><a href="#">Đăng nhập</a></li>
+                                <li><a href="login.html">Đăng ký</a></li>
+                                <li><a href="login.html">Đăng nhập</a></li>
                             </ul>
                             <ul class="social">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -22,7 +22,7 @@
                             </ul>
                         </div>
 
-                        <div class="have-account">
+                        <!-- <div class="have-account">
                             <ul class="name-user">
                                 <li><h4>Nguyen Xuan Anh</h4></li>
                                 <li><p>Khóa học:</p></li>
@@ -32,7 +32,7 @@
                             <ul class="avartar-user">
                                 <img src="resources/images/index/avatar.png" alt="">
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
