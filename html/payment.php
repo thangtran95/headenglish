@@ -140,7 +140,7 @@
                                     <div class="row">
                                         <div class="col-xs-6">
                                             <label class="cus-rdo-btn">
-                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <input type="radio" class="radio-inline" name="radios12" value="">
                                                 <span class="outside">
                                                     <span class="inside"></span>
                                                 </span><img src="resources/images/logo/mastercard.png">
@@ -149,13 +149,12 @@
 
                                         <div class="col-xs-6">
                                             <label class="cus-rdo-btn">
-                                                <input type="radio" class="radio-inline" name="radios1" value="">
+                                                <input type="radio" class="radio-inline" name="radios12" value="">
                                                 <span class="outside">
                                                     <span class="inside"></span>
                                                 </span><img src="resources/images/logo/visa.png">
                                             </label>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
