@@ -25,6 +25,9 @@
 				color: $color;
 			}
 		}
+        @media (max-width: 768px){
+            padding: 0 100px;
+        }
 	}
 	.box-bank{
 		border: 1px solid #cecece;

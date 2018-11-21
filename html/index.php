@@ -50,12 +50,12 @@
 					</div>
 
 					<div class="row mb-50">
-						<div class="col-sm-6">
+						<div class="col-md-6">
 							<div class="video-intro">
 								<iframe width="100%" height="400" src="https://www.youtube.com/embed/cX2dMKYYZI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-md-6">
 							<div class="txt-right-op2">
 								<h2>English pronunciation training course</h2>
 								<ul class="btn-khoahoc">
@@ -67,12 +67,12 @@
 					</div>
 
 					<div class="row mb-50">
-						<div class="col-sm-6">
+						<div class="col-md-6">
 							<div class="video-intro">
 								<iframe width="100%" height="400" src="https://www.youtube.com/embed/cX2dMKYYZI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-md-6">
 							<div class="txt-right-op2">
 								<h2>English pronunciation training course</h2>
 								<ul class="btn-khoahoc">

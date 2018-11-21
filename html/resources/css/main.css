@@ -122,6 +122,13 @@ a, a:hover {
       .banner-page .regular1 .slick-slide .item1 .banner1 .txt-banner > h5 {
         font-size: 36px;
         font-weight: bold; }
+      @media (max-width: 768px) {
+        .banner-page .regular1 .slick-slide .item1 .banner1 .txt-banner > h4 {
+          font-size: 24px; }
+        .banner-page .regular1 .slick-slide .item1 .banner1 .txt-banner > h3 {
+          font-size: 50px; }
+        .banner-page .regular1 .slick-slide .item1 .banner1 .txt-banner > h5 {
+          font-weight: 30px; } }
 
 .title-page {
   text-align: center;
@@ -178,6 +185,9 @@ a, a:hover {
         border: 1px solid transparent; }
         .option-1 .txt-right-op2 .btn-khoahoc > li > a:hover {
           border: 1px solid #e8b238; }
+  @media (max-width: 768px) {
+    .option-1 .txt-right-op2 {
+      padding: 30px 0; } }
 
 .border-box {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -492,6 +502,9 @@ footer {
 .ed-flex {
   display: flex;
   flex-wrap: wrap; }
+  @media (max-width: 768px) {
+    .ed-flex {
+      display: block; } }
 
 .login-page .box-login-page {
   margin: 100px 0 50px;
@@ -626,6 +639,9 @@ footer {
     .payment-page .form-payment button:hover {
       background: #fff;
       color: #ffc000; }
+  @media (max-width: 768px) {
+    .payment-page .form-payment {
+      padding: 0 100px; } }
   .payment-page .box-bank {
     border: 1px solid #cecece;
     background: #fff;
