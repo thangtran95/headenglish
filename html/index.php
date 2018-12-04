@@ -75,42 +75,42 @@
 					</div>
 
 					<div class="row option-weneed">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="box-whoneed text-center">
 								<i class="fa fa-graduation-cap"></i>
 								<h3>Professional Study</h3>
 								<p>Nulla pellentesque mi non ac fermentum est. Cras mi ipsum</p>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="box-whoneed text-center">
 								<i class="fa fa-book"></i>
 								<h3>Summer Session</h3>
 								<p>Nulla pellentesque mi non ac fermentum est. Cras mi ipsum</p>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="box-whoneed text-center">
 								<i class="fa fa-globe"></i>
 								<h3>Global Education</h3>
 								<p>Nulla pellentesque mi non ac fermentum est. Cras mi ipsum</p>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="box-whoneed text-center">
 								<i class="fa fa-graduation-cap"></i>
 								<h3>Professional Study</h3>
 								<p>Nulla pellentesque mi non ac fermentum est. Cras mi ipsum</p>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="box-whoneed text-center">
 								<i class="fa fa-book"></i>
 								<h3>Summer Session</h3>
 								<p>Nulla pellentesque mi non ac fermentum est. Cras mi ipsum</p>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="box-whoneed text-center">
 								<i class="fa fa-globe"></i>
 								<h3>Global Education</h3>
@@ -128,7 +128,7 @@
 					</div>
 
 					<div class="row option-whychoose">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="box-whychoose">
 								<div class="ed--tag-i">
 									<i class="fa fa-book"></i>
@@ -157,10 +157,10 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 hidden-sm hidden-xs">
 							<img src="resources/images/index/2.png" class="img-responsive" alt="">
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="box-whychoose">
 								<div class="ed--tag-i">
 									<i class="fa fa-book"></i>
@@ -200,16 +200,18 @@
 					</div>
 
 					<div class="row option-studysth">
-						<div class="col-md-3">
-							<img src="resources/images/index/ai.png" class="img-responsive" alt="">
+						<div class="col-md-3 col-sm-12">
+							<div class="studysth--1">
+								<img src="resources/images/index/ai.png" class="img-responsive" alt="">
+							</div>
 						</div>
-						<div class="col-md-5">
+						<div class="col-md-5 col-sm-6">
 							<div class="txt-studysth">
 								<h4>Study new something</h4>
 								<p>Là trí tuệ được biểu diễn bởi các hệ thống nhân tạo, có khả năng học hỏi, tư duy, cư xử và tự động hóa hành vi như con người. Một ứng dụng đột phá trong xây dựng Web và Mobile App đầy ấn tượng.</p>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="sw-list-col">
 								<ul>
 									<li>Phân tích hành vi nhu cầu khách hàng</li>
@@ -230,7 +232,7 @@
 					</div>
 					
 					<div class="row option-effective">
-						<div class="col-md-7 padding-0">
+						<div class="col-lg-7 col-md-9 padding-0">
 							<div class="box-effective">
 								<ul>
 									<h2>1</h2>
@@ -342,7 +344,7 @@
 							</ul>
 						</div>
 
-						<div class="col-md-6">
+						<div class="col-sm-6">
 							<ul class="info-discount">
 								<li>Giảm giá 20% chỉ còn 395.000đ</li>
 								<li>FREE SHIP toàn quốc</li>
@@ -351,7 +353,7 @@
 								<li>Giảm 35% khi mua combo Sách Hack não 1500, Hack Não IELTS và khóa học Online, chỉ còn 990.000đ</li>
 							</ul>
 						</div>
-						<div class="col-md-6">
+						<div class="col-sm-6">
 							<div class="form-contact-us">
 								<form>
 									<div class="form-group">

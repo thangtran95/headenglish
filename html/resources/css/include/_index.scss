@@ -199,6 +199,14 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	.studysth--1{
+		@media (max-width: 768px){
+			margin-bottom: 70px;
+			>img{
+				margin: auto;
+			}
+		}
+	}
 	.txt-studysth{
 		>h4{
 			font-size: 22px;
@@ -232,6 +240,13 @@
 				height: 43px;
 				-webkit-transform: rotate(-90deg);
 				transform: rotate(-90deg);
+				@media (max-width: 1024px){
+					left: 48%;
+				}
+				@media (max-width: 768px){
+					left: 42%;
+
+				}
 			}
 		}
 	}
@@ -370,12 +385,18 @@
 		-webkit-clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
 		clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
 		padding: 50px;
+		@media (max-width: 768px){
+			-webkit-clip-path: unset;
+			clip-path: unset;
+			background: rgba(#053636, 0.7);
+
+		}
 		>ul{
 			padding: 0;
 			margin: 0;
 			list-style: none;
 			color: #fff;
-			padding-right: 20px;
+			padding-right: 40px;
 			margin-bottom: 50px;
 			>h2{
 				margin: 0;

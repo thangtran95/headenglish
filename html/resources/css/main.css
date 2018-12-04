@@ -257,6 +257,11 @@ a, a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center; }
+  @media (max-width: 768px) {
+    .option-studysth .studysth--1 {
+      margin-bottom: 70px; }
+      .option-studysth .studysth--1 > img {
+        margin: auto; } }
   .option-studysth .txt-studysth > h4 {
     font-size: 22px;
     font-weight: bold;
@@ -283,6 +288,12 @@ a, a:hover {
       height: 43px;
       -webkit-transform: rotate(-90deg);
       transform: rotate(-90deg); }
+      @media (max-width: 1024px) {
+        .option-studysth .sw-list-col > ul:after {
+          left: 48%; } }
+      @media (max-width: 768px) {
+        .option-studysth .sw-list-col > ul:after {
+          left: 42%; } }
 
 .option-comment {
   margin-bottom: 50px; }
@@ -378,12 +389,17 @@ a, a:hover {
     -webkit-clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
     padding: 50px; }
+    @media (max-width: 768px) {
+      .option-effective .box-effective {
+        -webkit-clip-path: unset;
+        clip-path: unset;
+        background: rgba(5, 54, 54, 0.7); } }
     .option-effective .box-effective > ul {
       padding: 0;
       margin: 0;
       list-style: none;
       color: #fff;
-      padding-right: 20px;
+      padding-right: 40px;
       margin-bottom: 50px; }
       .option-effective .box-effective > ul > h2 {
         margin: 0;
