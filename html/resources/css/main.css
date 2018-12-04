@@ -927,4 +927,48 @@ footer {
       width: 10px;
       height: 10px; }
 
+.list-lession {
+  background: #fff;
+  padding: 50px; }
+  .list-lession ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center; }
+    .list-lession ul > li {
+      display: inline-block; }
+      .list-lession ul > li > a {
+        display: inline-block;
+        width: 46px;
+        height: 50px;
+        border: 1px solid #cecece;
+        background: #ffe599;
+        color: #000;
+        margin-bottom: 4px;
+        position: relative; }
+        .list-lession ul > li > a > p {
+          margin: 0;
+          font-size: 11px;
+          margin-left: 3px; }
+        .list-lession ul > li > a > h4 {
+          margin: 0;
+          font-size: 23px;
+          text-align: center; }
+        .list-lession ul > li > a:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.6); }
+        @media (max-width: 768px) {
+          .list-lession ul > li > a {
+            width: 55px; } }
+      .list-lession ul > li.active > a:after {
+        background: transparent; }
+  @media (max-width: 1024px) {
+    .list-lession {
+      padding: 50px 40px; } }
+
 /*# sourceMappingURL=main.css.map */

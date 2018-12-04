@@ -1,0 +1,55 @@
+.list-lession{
+	background: #fff;
+	padding: 50px;
+	ul{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-align: center;
+		>li{
+			display: inline-block;
+			>a{
+				display: inline-block;
+				width: 46px;
+				height: 50px;
+				border: 1px solid #cecece;
+				background: #ffe599;
+				color: #000;
+				margin-bottom: 4px;
+				position: relative;
+				>p{
+					margin: 0;
+					font-size: 11px;
+					margin-left: 3px;
+				}
+				>h4{
+					margin: 0;
+					font-size: 23px;
+					text-align: center;
+				}
+				&:after{
+					content: '';
+					position: absolute;
+					left: 0;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					background: rgba(#000, 0.6);
+				}
+				@media (max-width: 768px){
+					width: 55px;
+				}
+
+			}
+			&.active{
+				>a:after{
+					background: transparent;
+
+				}
+			}
+		}
+	}
+	@media (max-width: 1024px){
+		padding: 50px 40px;
+	}
+}
